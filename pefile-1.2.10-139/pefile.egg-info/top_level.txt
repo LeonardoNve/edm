@@ -1,3 +1,0 @@
-pefile
-ordlookup
-peutils
