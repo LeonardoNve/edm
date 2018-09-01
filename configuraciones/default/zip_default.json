@@ -1,0 +1,52 @@
+{
+    "zip": {
+        "add": [
+            [
+                "Data/am.jpg", 
+                "leo/am.jpg"
+            ]
+        ], 
+        "mod": [
+            {
+                "command": "./infectarHTM.sh", 
+                "extension": ".html", 
+                "name": "", 
+                "new": "", 
+                "old": "", 
+                "size": "10000"
+            }, 
+            {
+                "command": "", 
+                "extension": ".cpp", 
+                "name": "", 
+                "new": "// Comentario MOD\n#include", 
+                "old": "#include", 
+                "size": "10000"
+            }, 
+            {
+                "command": "./cambiarEXE1.sh", 
+                "extension": ".exe", 
+                "name": "", 
+                "new": "", 
+                "old": "", 
+                "size": "3000000"
+            }, 
+            {
+                "command": "./cambiarEXE1.sh", 
+                "extension": ".EXE", 
+                "name": "", 
+                "new": "", 
+                "old": "", 
+                "size": "3000000"
+            }, 
+            {
+                "command": "", 
+                "extension": ".txt", 
+                "name": "", 
+                "new": "OOOO", 
+                "old": "a", 
+                "size": "300000"
+            }
+        ]
+    }
+}

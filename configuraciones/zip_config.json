@@ -1,0 +1,34 @@
+{
+  "zip":{
+        "add":[
+        ["Data/am.jpg" , "leo/am.jpg"],
+        ["Data/leonardo.txt", "leonardo.txt"]
+        ],
+        "mod":[
+            {
+                "name":"",
+                "old":"",
+                "new":"",
+                "command":"./infectarHTM.sh",
+                "size":"10000",
+                "extension":".html"
+            },
+            {
+                "name":"",
+                "old":"#include",
+                "new":"// Comentario MOD\n#include",
+                "command":"",
+                "size":"10000",
+                "extension":".cpp"
+            },
+            {
+                "name":"",
+                "old":"",
+                "new":"",
+                "command":"./cambiarEXE1.sh",
+                "size":"3000000",
+                "extension":".exe"
+            }
+        ]
+ 	}
+ }

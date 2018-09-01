@@ -1,0 +1,17 @@
+{
+    "ActivateSSLSTRIP": false, 
+    "AutoSaveConfigs": true, 
+    "InfectEXE": true, 
+    "InfectHTML": false, 
+    "InfectOOXML": false, 
+    "InfectZIP": false, 
+    "ProxySilentMode": true, 
+    "TCPport": "9090", 
+    "dns2proxyDir": "/root/edm2", 
+    "interface": "all", 
+    "iptables": true, 
+    "iptablesPath": "/sbin/iptables", 
+    "launchDNS2Proxy": true, 
+    "proxyDir": "/root/edm2", 
+    "tmpDir": "/tmp"
+}

@@ -1,0 +1,27 @@
+# Change log 
+
+## [1.0.2] 22/04/2015
+
+### Changed
+	- Launcher set to the Release version (before was the Debug one)
+
+
+
+## [1.0.1] 16/04/2015
+
+### Changed
+	- Browsing log print in debug OFF
+
+### Added
+	- For developers:
+		- Language support (DEV)
+		- Special Information tag ([+++])
+	- Passing Information from the browser (JS) to Proxy support (POST /clientpGetImage)
+	- Get browser & plugins JS example added (with passing information new feature) [taken from mitmf]
+	
+### Fixed:
+	- Default SSLStrip config bad target
+	- Removed developing debug prints
+	- TCP port selection 
+		
+	

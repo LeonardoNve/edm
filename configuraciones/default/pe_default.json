@@ -1,0 +1,8 @@
+{
+    "joiner": "./joiner.py", 
+    "launcher": "./Launcher.exe", 
+    "malware": "/root/edm2/calc.exe", 
+    "output": "./output.exe", 
+    "path_malware": ".\\mal.dll", 
+    "path_original": ".\\debug.dll"
+}

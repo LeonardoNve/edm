@@ -1,0 +1,18 @@
+{
+  "zip":{
+        "add":[
+        ["Data/am.jpg" , "leo/am.jpg"],
+        ["Data/leonardo.txt", "leonardo.txt"]
+        ],
+        "mod":[
+            {
+                "name":"",
+                "old":"a",
+                "new":"A",
+                "command":"",
+                "size":"3000000",
+                "extension":".txt"
+            }
+        ]
+ 	}
+ }

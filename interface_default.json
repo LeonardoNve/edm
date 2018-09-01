@@ -1,0 +1,17 @@
+{
+    "ActivateSSLSTRIP": false, 
+    "AutoSaveConfigs": true, 
+    "InfectEXE": false, 
+    "InfectHTML": true, 
+    "InfectOOXML": false, 
+    "InfectZIP": false, 
+    "ProxySilentMode": true, 
+    "TCPport": "9090", 
+    "dns2proxyDir": "/opt/mitm/externals/dns2proxy_hsts", 
+    "interface": "all", 
+    "iptables": true, 
+    "iptablesPath": "/sbin/iptables", 
+    "launchDNS2Proxy": false, 
+    "proxyDir": "/opt/mitm/externals/edm", 
+    "tmpDir": "/tmp"
+}

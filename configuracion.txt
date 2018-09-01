@@ -1,0 +1,100 @@
+Formato configuraciòn ooxml_config.json
+
+{
+  ".docx":{
+        "add":[parametros],
+        "mod":[parametros]
+ 	},
+
+  ".xlsx":{
+        "add":[parametros],
+        "mod":[parametros]
+ 	},
+
+  ".pptx":{
+        "add":[parametros],
+        "mod":[parametros]
+ 	},
+
+  ".ppsx":{
+        "add":[parametros],
+        "mod":[parametros]
+ 	}
+
+}
+ 
+
+
+ Comandos:
+ 	add: Añade ficheros al DOCx.
+ 		 parametros (lista):
+ 		 	["path/nombre del fichero a añadir", "path y nombre del fichero a añadir dentro del zip"]
+ 		 	
+ 	
+ 	mod: Modificar fichero interno.
+ 		parametros (diccionario): 
+ 			{ 
+ 			   "name": "nombre del fichero a modificar", 
+ 			   "old": "cadena ascii a modificar dentro del fichero",
+ 			   "new": "nueva cadena" 			
+ 			}
+
+
+*******
+
+Formato configuraciòn zip_config.json
+
+{
+  "zip":{
+        "add":[parametros],
+        "mod":[parametros]
+ 	}
+}
+ 
+ 
+ Comandos:
+ 	add: Añade ficheros al ZIP.
+ 		 parametros (lista):
+ 		 	["path/nombre del fichero a añadir", "path y nombre del fichero a añadir dentro del zip"]
+ 		 	
+ 	
+ 	mod: Modificar fichero interno.
+ 		parametros (diccionario): 
+ 			{ 
+ 			   "extension": "extensiòn de los ficheros a modificar"
+ 			   "name": "nombre del fichero a modificar", 
+ 			   "old": "cadena ascii a modificar dentro del fichero",
+ 			   "new": "nueva cadena para sustituir a cadena old",
+ 			   "command": "comando externo que modifica el fichero objetivo",
+ 			   "size": "tamaño màximo del fichero (todavìa en desuso)",
+ 			
+ 			}
+ 		 	
+Ejemplo: 		 	
+ 		 	
+		{
+		  "zip":{
+				"add":[
+					["Data/oleObject1974.bin", "oleObject1974.bin"],
+					["Data/image1974.emf", "image1974.emf"]
+				],
+				"mod":[
+					{
+						"name":"",
+						"old":"",
+						"new":"",
+						"command":"./infectarHTM.sh",
+						"size":"100000",
+						"extension":"htm"
+					},
+					{
+						"name":"",
+						"old":"",
+						"new":"",
+						"command":"",
+						"size":"",
+						"extension":""
+					}
+				]
+			}
+		 }
